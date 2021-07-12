@@ -1,0 +1,38 @@
+№1
+document.getElementById('demo').innerHTML = Date();
+/******* This function is used to get date information in your laptop. *******/
+
+№2
+document.getElementById('demo').innerHTML = "Hello JavaScript";
+
+№3
+console.log(document.getElementById('bulb').src);
+/******* to find source *******/
+
+№4
+document.getElementById('demo').style.backgroundColor = "red";
+/*********** To change background color **********/
+
+№5
+document.getElementById('demo').innerHTML = 5 + 6;
+/***** innerHTML - is used to write into an HTML element **********/
+
+№6
+document.write(5 + 6);
+/******* writing into the HTML output *********/
+
+№7
+window.alert(5 + 6);
+/******** writing into an alert box  ("window" is optional) *******/
+
+№8
+window.print()
+/******** To print a page *******/
+
+№9
+x.length;
+/******* to find length of the given number *********/
+
+
+
+

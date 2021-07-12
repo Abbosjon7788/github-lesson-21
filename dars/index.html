@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 21</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        body{
+            transition: all 0.5s linear;
+        }
+    </style>
+</head>
+<body id="body">
+<div class="container">
+    <div class="row">
+        <div class="col-4 mt-3">
+            <button type="button" class="btn btn-outline-primary" onclick="console.log('Button is pushed!')">Cilck me!
+            </button>
+            <p id="text">Hello world!</p>
+            <p id="text-2"></p>
+        </div>
+        <div class="col-4 my-3">
+            <button type="button" class="btn btn-outline-success" onclick="myFunction()">This is function!</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 offset-4">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Bulb is switched off</h3>
+                </div>
+                <div class="card-body">
+                    <img src="images/pic_bulboff.gif" class="w-100" id="bulb" alt="">
+                </div>
+                <div class="card-footer d-flex justify-content-between">
+                    <button type="button" class="btn btn-success" onclick="switchOn()">switch on</button>
+                    <button type="button" class="btn btn-primary" onclick="switchOnOff()">Yoqish</button>
+                    <button type="button" class="btn btn-warning" onclick="switchOff()">switch off</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    console.log("This is internal!");
+    document.getElementById("text").innerHTML = "<span class='text-primary'>Text is changed!</span>";
+    document.getElementById("text-2").innerText = "<span class='text-warning'>New text is changed!</span>";
+    document.write("This text is from document.write function");
+    // alert("Hello world!");
+
+</script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
