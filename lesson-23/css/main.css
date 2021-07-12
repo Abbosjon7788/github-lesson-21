@@ -1,0 +1,61 @@
+body .container .row .col-4 {
+  background-color: black;
+  padding-top: 15px;
+  padding-bottom: 50px; }
+  body .container .row .col-4 .card {
+    background-color: black; }
+    body .container .row .col-4 .card .card-header input {
+      height: 70px;
+      font-size: 50px; }
+    body .container .row .col-4 .card .card-body .row .col-3 {
+      padding-left: 10px;
+      padding-right: 10px; }
+      body .container .row .col-4 .card .card-body .row .col-3 .orange {
+        background-color: #fe9505;
+        font-weight: 400; }
+      body .container .row .col-4 .card .card-body .row .col-3 .grey {
+        background-color: #a5a5a5; }
+        body .container .row .col-4 .card .card-body .row .col-3 .grey span {
+          color: black; }
+      body .container .row .col-4 .card .card-body .row .col-3 .black {
+        background-color: #333333; }
+        body .container .row .col-4 .card .card-body .row .col-3 .black span {
+          color: white; }
+      body .container .row .col-4 .card .card-body .row .col-3 .icon {
+        width: 25px;
+        height: 25px;
+        mask-size: 100%;
+        -webkit-mask-size: 100%;
+        mask-repeat: no-repeat;
+        -webkit-mask-repeat: no-repeat;
+        background-color: white; }
+        body .container .row .col-4 .card .card-body .row .col-3 .icon.icon-division {
+          mask-image: url("../images/division.png");
+          -webkit-mask-image: url("../images/division.png"); }
+        body .container .row .col-4 .card .card-body .row .col-3 .icon.icon-multiplication {
+          mask-image: url("../images/multiplication-2.png");
+          -webkit-mask-image: url("../images/multiplication-2.png"); }
+        body .container .row .col-4 .card .card-body .row .col-3 .icon.icon-minus {
+          mask-image: url("../images/minus-2.png");
+          -webkit-mask-image: url("../images/minus-2.png"); }
+        body .container .row .col-4 .card .card-body .row .col-3 .icon.icon-plus {
+          mask-image: url("../images/plus.png");
+          -webkit-mask-image: url("../images/plus.png"); }
+        body .container .row .col-4 .card .card-body .row .col-3 .icon.icon-cancel {
+          mask-image: url("../images/cancel.png");
+          -webkit-mask-image: url("../images/cancel.png"); }
+      body .container .row .col-4 .card .card-body .row .col-3 button {
+        width: 100%;
+        height: 65px; }
+        body .container .row .col-4 .card .card-body .row .col-3 button span {
+          font-size: 32px;
+          font-weight: 400;
+          font-family: sans-serif; }
+        body .container .row .col-4 .card .card-body .row .col-3 button .picture {
+          width: 40%; }
+        body .container .row .col-4 .card .card-body .row .col-3 button .equality {
+          font-weight: 500;
+          color: white;
+          font-size: 32px; }
+
+/*# sourceMappingURL=main.css.map */

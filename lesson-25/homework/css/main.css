@@ -1,0 +1,23 @@
+body main section#navbar-part .row .col-1 {
+  border-right: 2px solid grey; }
+  body main section#navbar-part .row .col-1 .nav {
+    margin-top: 45px; }
+    body main section#navbar-part .row .col-1 .nav .nav-item .nav-link {
+      padding-left: 0;
+      padding-right: 0; }
+      body main section#navbar-part .row .col-1 .nav .nav-item .nav-link.tasma {
+        font-weight: 700;
+        font-size: 18px;
+        color: black; }
+body main section#navbar-part .row .col-9 .nav {
+  margin-top: 57px; }
+  body main section#navbar-part .row .col-9 .nav .nav-item .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    box-shadow: 0 1px 2px lightgrey; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,115 @@
+body {
+  .container {
+    .row {
+      .col-4 {
+        background-color: black;
+        padding:{
+          top: 15px;
+          bottom: 50px;
+
+        }
+        .card {
+          background-color: black;
+          .card-header{
+            input{
+              height: 70px;
+              font-size: 50px;
+            }
+          }
+
+          .card-body {
+            .row {
+              .col-3 {
+                padding: {
+                  left: 10px;
+                  right: 10px;
+                }
+
+                .orange {
+                  background-color: #fe9505;
+                  font-weight: 400;
+                }
+
+                .grey {
+                  background-color: #a5a5a5;
+
+                  span {
+                    color: black;
+                  }
+                }
+
+                .black {
+                  background-color: #333333;
+
+                  span {
+                    color: white;
+                  }
+                }
+
+                .icon {
+                  width: 25px;
+                  height: 25px;
+                  mask-size: 100%;
+                  -webkit-mask-size: 100%;
+                  mask-repeat: no-repeat;
+                  -webkit-mask-repeat: no-repeat;
+                  background-color: white;
+
+                  &.icon-division {
+                    mask-image: url("../images/division.png");
+                    -webkit-mask-image: url("../images/division.png");
+                  }
+
+                  &.icon-multiplication {
+                    mask-image: url("../images/multiplication-2.png");
+                    -webkit-mask-image: url("../images/multiplication-2.png");
+                  }
+
+                  &.icon-minus {
+                    mask-image: url("../images/minus-2.png");
+                    -webkit-mask-image: url("../images/minus-2.png");
+                  }
+
+                  &.icon-plus {
+                    mask-image: url("../images/plus.png");
+                    -webkit-mask-image: url("../images/plus.png");
+                  }
+
+                  &.icon-cancel {
+                    mask-image: url("../images/cancel.png");
+                    -webkit-mask-image: url("../images/cancel.png");
+                  }
+
+
+                }
+
+                button {
+                  width: 100%;
+                  height: 65px;
+
+                  span {
+                    font-size: 32px;
+                    font-weight: 400;
+                    font-family: sans-serif;
+                  }
+
+                  .picture {
+                    width: 40%;
+                  }
+                  .equality{
+                    font-weight: 500;
+                    color: white;
+                    font-size: 32px;
+
+                  }
+
+
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

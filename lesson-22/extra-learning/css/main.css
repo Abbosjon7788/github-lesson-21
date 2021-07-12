@@ -1,0 +1,8 @@
+body .container .row .col-6:nth-child(2) .card .card-body .form-control:focus {
+  border-color: #ced4da; }
+body .container .row .col-6:nth-child(2) .card .card-body #roots .close {
+  position: absolute;
+  top: 5px;
+  right: 8px; }
+
+/*# sourceMappingURL=main.css.map */

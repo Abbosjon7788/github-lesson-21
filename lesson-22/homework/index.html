@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-22</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-6">
+            <h2>Display Current Time</h2>
+            <button type="button" class="btn btn-outline-primary shadow-none" onclick="ShowDate()">
+                Click me to display Date and Time.
+            </button>
+            <p id="demo"></p>
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <div class="col-12">
+                <h3 class="text-center">ax<sup>2</sup>+bx+c=0</h3>
+            </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <labal for="a"><h2>a</h2></labal>
+                        <input type="text" class="form-control" id="a" placeholder="Input a: ">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <labal for="b"><h2>b</h2></labal>
+                        <input type="text" class="form-control" id="b" placeholder="Input b: ">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group">
+                        <labal for="c"><h2>c</h2></labal>
+                        <input type="text" class="form-control" id="c" placeholder="Input c: ">
+                    </div>
+                </div>
+
+                <div class="col-12 text-center">
+                    <button type="button" class="btn btn-success px-4" onclick="Calculator()">SUBMIT</button>
+                </div>
+                <div class="col-6 mt-3">
+                    <div class="border rounded py-2 px-5">
+                        x<sub>1</sub> = <span id="val-x1"></span>
+                    </div>
+                </div>
+                <div class="col-6 mt-3">
+                    <div class="border rounded py-2 px-5">
+                        x<sub>2</sub> = <span id="val-x2"></span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

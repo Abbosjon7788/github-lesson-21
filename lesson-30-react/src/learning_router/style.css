@@ -1,0 +1,47 @@
+body{
+    font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+    color: #3f4850;
+}
+
+.bg-grey{
+    background-color: #edeff0;
+}
+.border-3-grey{
+    border: 3px solid #d7dbdf;
+}
+.form-control:focus{
+    border-color: #d7dbdf;
+    background-color: #edeff0;
+}
+.bg-black{
+    background-color: #051c33;
+}
+.link-black{
+    background-color: #051c33;
+    border-radius: 3px;
+    padding: 5px;
+    color: #fff;
+    font-family: "Josefin Sans";
+
+}
+.link-black:hover{
+    color: white;
+}
+.py-30{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.snapshot-style{
+    font-family: "Lobster","Josefin Sans",Helvetica,Arial,sans-serif;
+    font-size: 4em;
+    color: #051c33;
+    font-weight: bold;
+}
+.f-2em{
+    font-size: 2em;
+}
+.links-style{
+    font-size: 2em;
+    font-family: "Josefin Sans";
+    font-weight: bolder;
+}

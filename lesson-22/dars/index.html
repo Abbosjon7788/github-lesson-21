@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 22. Javascript</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-4 offset-4 mt-3">
+            <div class="card">
+                <div class="card-header">
+                    <h3>Calculator</h3>
+                </div>
+                <div class="card-body">
+                    <input type="number" id="number-one" class="form-control" placeholder="Enter number one">
+
+                    <select class="form-control mt-3" id="action">
+                        <option value="add">Qo'shish</option>
+                        <option value="subtract">Ayirish</option>
+                        <option value="multiply">Ko'paytirish</option>
+                        <option value="divide">Bo'lish</option>
+                    </select>
+
+                    <input type="number" id="number-two" class="form-control mt-3" placeholder="Enter number two">
+
+                    <button type="button" class="btn btn-success btn-block mt-3" onclick="calc()">Calc</button>
+
+                    <div id="result"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+  background-color: #f2f2f2; }
+  body main .container {
+    max-width: 1280px; }
+  body main section#navbar-part {
+    background-color: #e44d3a; }
+    body main section#navbar-part .container .nav {
+      align-items: center; }
+      body main section#navbar-part .container .nav .nav-item:nth-child(1) img {
+        width: 40px; }
+      body main section#navbar-part .container .nav .nav-item:nth-child(2) .btn-group input {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        width: 300px; }
+      body main section#navbar-part .container .nav .nav-item:nth-child(2) .btn-group .btn-secondary {
+        background-color: #efefef; }
+        body main section#navbar-part .container .nav .nav-item:nth-child(2) .btn-group .btn-secondary .fa-search {
+          transform: rotate(90deg);
+          color: #e44d3a;
+          font-weight: lighter; }
+      body main section#navbar-part .container .nav .text {
+        color: white;
+        font-family: sans-serif;
+        line-height: 2;
+        font-size: 14px; }
+      body main section#navbar-part .container .nav .border-color {
+        border-right: 1px solid #e04431;
+        border-left: 1px solid #e04431; }
+      body main section#navbar-part .container .nav .rasm {
+        width: 30px; }
+  body main .black-red {
+    background-color: #e44d3a; }
+  body main .text-user {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: sans-serif; }
+  body main .view-profile {
+    font-weight: 500;
+    color: #e65e65; }
+  body main section#content-part .container .row .col-3 .card .card-body {
+    background-color: white; }
+    body main section#content-part .container .row .col-3 .card .card-body img {
+      border: 5px solid white;
+      border-radius: 50%;
+      width: 120px;
+      top: -65px;
+      left: 80px; }
+  body main section#content-part .container .row .col-3 .suggestion .suggestion-title {
+    font-weight: 600;
+    font-size: 24px; }
+    body main section#content-part .container .row .col-3 .suggestion .suggestion-title img {
+      height: 24px;
+      cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */

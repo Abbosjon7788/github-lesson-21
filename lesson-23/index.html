@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson-23</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-4 rounded offset-4 mt-5">
+            <div class="card">
+                <div class="card-header p-3">
+                    <input type="text" class="form-control text-right text-white border-0" style="background-color: black;" value="0" disabled id="result">
+                </div>
+                <div class="card-body p-3">
+                    <div class="row">
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn grey border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="clearAll()">
+                                <span>C</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn grey border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="changeSign()"><span><img
+                                    class="picture"
+                                    src="images/plus_and_minus.png" alt=""></span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn grey border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="percentage()">
+                                <span>%</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn orange border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="action('division')">
+                                <span class="icon icon-division"></span></button>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="addNumber(7)">
+                                <span>7</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="addNumber(8)">
+                                <span>8</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="addNumber(9)">
+                                <span>9</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn orange border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="action('multiplication')">
+                                <span class="icon icon-multiplication"></span></button>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="addNumber(4)">
+                                <span>4</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="addNumber(5)">
+                                <span>5</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="addNumber(6)">
+                                <span>6</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn orange border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="action('subtraction')">
+                                <span class="icon icon-minus"></span></button>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="addNumber(1)">
+                                <span>1</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="addNumber(2)">
+                                <span>2</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="addNumber(3)">
+                                <span>3</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn orange border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="action('adding')">
+                                <span class="icon icon-plus"></span></button>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="addNumber(0)">
+                                <span>0</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="addNumber('.')">
+                                <span>.</span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn black border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="cancel()">
+                                <span class="icon icon-cancel"></span></button>
+                        </div>
+                        <div class="col-3 d-flex justify-content-center">
+                            <button type="button"
+                                    class="btn orange border-0 p-0 rounded-circle d-flex justify-content-center align-items-center" onclick="Calc()">
+                                <span class="equality">=</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

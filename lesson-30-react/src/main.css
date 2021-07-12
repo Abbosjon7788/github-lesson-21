@@ -1,0 +1,124 @@
+/*# sourceMappingURL=main.css.map */
+.max-w-100 {
+    width: 100%;
+    padding-right: 15px;
+}
+
+.border-right-2 {
+    border-right: 2px solid #cbcbcb;
+}
+
+.border-2 {
+    border: 2px solid #cbcbcb;
+}
+
+.size-24 {
+    font-size: 24px;
+}
+
+.w-24 {
+    width: 24px;
+}
+
+.w-48 {
+    width: 60px;
+}
+
+.for-icons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.position-absolute {
+    top: 0;
+    left: 0;
+}
+
+.rotate-90 {
+    transform: rotate(90deg);
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.ml-318 {
+    margin-left: 330px;
+}
+
+.mt-18 {
+    margin-top: 18px;
+}
+.mt-1024{
+    margin-top: 1024px;
+}
+
+.title {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 64px;
+    color: #000000;
+}
+
+.kun-uz {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 30px;
+    /* or 107% */
+
+
+    color: #000000;
+}
+
+.time {
+    /*font-family: SF Pro Display;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 26px;
+    /* identical to box height, or 108% */
+    color: #9E9E9E;
+}
+
+.text {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    /* or 120% */
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+}
+
+.website {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 38px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.58;
+}
+
+.rounded-20 {
+    border-radius: 20px;
+}
+
+.bg-lightgrey {
+    background-color: #D8D8D8;
+    opacity: 0.39;
+}
